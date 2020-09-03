@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자료형</title>
+	<style>
+	div{border: 1px dotted red;}
+	div:hover { color: #fff;
+				background-color:green;
+				border-color: #1e7e34;
+			
+	}
+	</style>
+</head>
+<body>
+	<div id="dd" onclick="fx()">....</div>
+	<script>
+		function fx(){
+			var x=100, y=0.1+0.2;
+			document.querySelector("#dd").innerHTML="x=" + x
+			+ " <br>" + x.toString(16) + "<br>" + x.toString(2)
+			+ " <hr>y=" + y + "<br>";
+			}
+	</script>
+</body>
+</html>
